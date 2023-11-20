@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-df = pd.read_csv(r"C:\Users\LENOVO\Downloads\WhatsApp Image 2023-11-02 at 09.39.30_85640aa8.jpg.csv")
+df = pd.read_csv(r"C:/Users/12202/Downloads/archive (1)/GOOGL.csv")
 df['date'] = pd.to_datetime(df['date'], format='%d-%m-%Y')
 
 # Define the start and end dates
